@@ -132,10 +132,10 @@ async function seedCourses() {
     await mongoose.connect(MONGO_URI);
     await Course.deleteMany();
     await Course.insertMany(sampleCourses);
-    console.log("✅ Sample courses inserted!");
+    console.log("Sample courses inserted!");
     mongoose.disconnect();
   } catch (err) {
-    console.error("❌ Seeding error:", err);
+    console.error("Seeding error:", err);
     mongoose.disconnect();
   }
 }
