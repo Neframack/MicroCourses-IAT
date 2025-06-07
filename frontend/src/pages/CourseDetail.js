@@ -8,7 +8,7 @@ function CourseDetail() {
   const [course, setCourse] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/courses/${id}`)
+    fetch(`http://localhost:5001/courses/${id}`)
       .then(res => res.json())
       .then(data => setCourse(data))
       .catch(err => console.error('Error fetching course:', err));
@@ -19,7 +19,7 @@ function CourseDetail() {
     if (!confirmDelete) return;
 
     try {
-      const res = await fetch(`http://localhost:5000/courses/${id}`, {
+      const res = await fetch(`http://localhost:5001/courses/${id}`, {
         method: 'DELETE',
       });
 

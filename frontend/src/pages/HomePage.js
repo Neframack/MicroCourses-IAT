@@ -8,7 +8,7 @@ function HomePage() {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:5000/courses')
+    fetch('http://localhost:5001/courses')
       .then(res => res.json())
       .then(data => {
         const sorted = [...data].sort((a, b) =>
@@ -55,12 +55,12 @@ function HomePage() {
                 const data = new FormData(e.target);
 
                 try {
-                  const res = await fetch('http://localhost:5000/courses', {
+                  const res = await fetch('http://localhost:5001/courses', {
                     method: 'POST',
                     body: data
                   });
                   if (res.ok) {
-                    const updatedCourses = await fetch('http://localhost:5000/courses')
+                    const updatedCourses = await fetch('http://localhost:5001/courses')
                       .then(res => res.json());
                     const sorted = [...updatedCourses].sort((a, b) =>
                       a.title.localeCompare(b.title)

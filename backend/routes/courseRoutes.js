@@ -41,7 +41,7 @@ router.post('/', upload.single('image'), async (req, res) => {
       duration,
       category,
       // If an image is uploaded, set the image URL; otherwise, set it to null
-      image: req.file ? `http://localhost:5000/uploads/${req.file.filename}` : null,
+      image: req.file ? `http://localhost:5001/uploads/${req.file.filename}` : null,
       modules: modules ? modules.split(',') : []
     });
 
@@ -62,8 +62,8 @@ router.delete('/:id', async (req, res) => {
     }
 
     // Delete associated image file
-    if (course.image && course.image.startsWith('http://localhost:5000/uploads/')) {
-      const imagePath = path.join(__dirname, '..', course.image.replace('http://localhost:5000', ''));
+    if (course.image && course.image.startsWith('http://localhost:5001/uploads/')) {
+      const imagePath = path.join(__dirname, '..', course.image.replace('http://localhost:5001', ''));
       fs.unlink(imagePath, (err) => {
         if (err) {
           console.error('Error deleting image file:', err.message);

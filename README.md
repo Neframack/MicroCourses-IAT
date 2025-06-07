@@ -3,10 +3,12 @@ MICROCOURSES MERN STACK WEB APP
 Run in two seperate terminals
 Backend 
 - cd backend 
+- npm install
 - node server.js
 
 Frontend
 - cd frontend
+- npm install
 - npm start
 
 Tech Stack
@@ -111,7 +113,7 @@ Frontend/
 
 - Image Uploads Not Displaying  
   - Problem: Uploaded images weren’t loading on the frontend.  
-  - Solution: Used `express.static` to serve the `/uploads` folder. Hardcoded `http://localhost:5000/uploads/...` during local development.
+  - Solution: Used `express.static` to serve the `/uploads` folder. Hardcoded `http://localhost:5001/uploads/...` during local development.
 
 - Delete Image on Course Deletion  
   - Problem: Images remained even after the course was deleted.  

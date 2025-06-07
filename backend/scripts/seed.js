@@ -14,7 +14,7 @@ const sampleCourses = [
     instructor: "Jane Doe",
     duration: 5,
     category: "Frontend",
-    image: "http://localhost:5000/uploads/react.png",
+    image: "http://localhost:5001/uploads/react.png",
     modules: ["Intro", "JSX", "Components", "Hooks"]
   },
   {
@@ -23,7 +23,7 @@ const sampleCourses = [
     instructor: "John Smith",
     duration: 6,
     category: "Backend",
-    image: "http://localhost:5000/uploads/node.png",
+    image: "http://localhost:5001/uploads/node.png",
     modules: ["Intro", "Routing", "Middleware", "Databases"]
   },
   {
@@ -32,7 +32,7 @@ const sampleCourses = [
     instructor: "Joel Dufty",
     duration: 10,
     category: "Fullstack",
-    image: "http://localhost:5000/uploads/fullstack.png",
+    image: "http://localhost:5001/uploads/fullstack.png",
     modules: ["Setup", "Frontend", "Backend", "Deployment"]
   },
   {
@@ -41,7 +41,7 @@ const sampleCourses = [
     instructor: "Blake Zenere",
     duration: 4,
     category: "Data",
-    image: "http://localhost:5000/uploads/databases.png",
+    image: "http://localhost:5001/uploads/databases.png",
     modules: ["SQL", "NoSQL", "Schemas", "Indexing"]
   },
   {
@@ -50,7 +50,7 @@ const sampleCourses = [
     instructor: "Jason Lee",
     duration: 3,
     category: "Theory",
-    image: "http://localhost:5000/uploads/history.png",
+    image: "http://localhost:5001/uploads/history.png",
     modules: ["ARPANET", "WWW", "Modern Browsers", "Web 3.0"]
   },
   {
@@ -59,7 +59,7 @@ const sampleCourses = [
     instructor: "Joe Rogan",
     duration: 8,
     category: "Theory",
-    image: "http://localhost:5000/uploads/maths.png",
+    image: "http://localhost:5001/uploads/maths.png",
     modules: ["Logic", "Combinatorics", "Graphs", "Sets"]
   },
   {
@@ -68,7 +68,7 @@ const sampleCourses = [
     instructor: "Elon Musk",
     duration: 6,
     category: "Engineering",
-    image: "http://localhost:5000/uploads/design.png",
+    image: "http://localhost:5001/uploads/design.png",
     modules: ["SOLID", "MVC", "Layered", "Patterns"]
   },
   {
@@ -77,7 +77,7 @@ const sampleCourses = [
     instructor: "Joel Dufty",
     duration: 7,
     category: "Engineering",
-    image: "http://localhost:5000/uploads/engineering.png",
+    image: "http://localhost:5001/uploads/engineering.png",
     modules: ["SDLC", "Agile", "CI/CD", "Testing"]
   },
   {
@@ -86,7 +86,7 @@ const sampleCourses = [
     instructor: "Blake Zenere",
     duration: 5,
     category: "Backend",
-    image: "http://localhost:5000/uploads/networks.png",
+    image: "http://localhost:5001/uploads/networks.png",
     modules: ["OSI Model", "IP/TCP", "DNS", "Firewalls"]
   },
   {
@@ -95,7 +95,7 @@ const sampleCourses = [
     instructor: "Edward Snowden",
     duration: 9,
     category: "Security",
-    image: "http://localhost:5000/uploads/hacking.png",
+    image: "http://localhost:5001/uploads/hacking.png",
     modules: ["Footprinting", "Exploits", "Pentesting", "Reporting"]
   },
   {
@@ -104,7 +104,7 @@ const sampleCourses = [
     instructor: "Linus Torvalds",
     duration: 6,
     category: "Low-Level",
-    image: "http://localhost:5000/uploads/c_language.png",
+    image: "http://localhost:5001/uploads/c_language.png",
     modules: ["Memory", "Pointers", "Embedded", "Performance"]
   },
   {
@@ -113,7 +113,7 @@ const sampleCourses = [
     instructor: "Jason Lee",
     duration: 7,
     category: "Mobile",
-    image: "http://localhost:5000/uploads/android.png",
+    image: "http://localhost:5001/uploads/android.png",
     modules: ["Layouts", "Activities", "Databases", "Publishing"]
   },
   {
@@ -122,7 +122,7 @@ const sampleCourses = [
     instructor: "Joel Dufty",
     duration: 5,
     category: "Backend",
-    image: "http://localhost:5000/uploads/apis.png",
+    image: "http://localhost:5001/uploads/apis.png",
     modules: ["REST", "GraphQL", "Testing", "Security"]
   }
 ];
